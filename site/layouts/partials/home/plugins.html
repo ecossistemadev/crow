@@ -3,30 +3,30 @@
     <div class="masthead-followup-icon d-inline-block mb-3" style="--bg-rgb: var(--bs-warning-rgb);">
       <svg class="bi fs-1"><use xlink:href="#plugin"></use></svg>
     </div>
-    <h2 class="display-5 mb-3 fw-semibold lh-sm">Powerful JavaScript plugins without&nbsp;jQuery</h2>
+    <h2 class="display-5 mb-3 fw-semibold lh-sm">Plugins JavaScript poderosos sem jQuery</h2>
     <p class="lead fw-normal">
-      Add toggleable hidden elements, modals and offcanvas menus, popovers and tooltips, and so much more—all without jQuery. Crow's JavaScript is HTML-first, meaning most plugins are added with <code>data</code> attributes in your HTML. Need more control? Include individual plugins programmatically.
+      Adicione elementos ocultos comutáveis, modais e menus offcanvas, popovers e tooltips, e muito mais - tudo sem jQuery. O JavaScript do Crow é HTML-first, o que significa que a maioria dos plugins são adicionados com atributos <code>data</code> no seu HTML. Precisa de mais controle? Inclua plugins individuais programaticamente.
     </p>
     <p class="d-flex justify-content-start lead fw-normal mb-md-0">
       <a href="/docs/{{ .Site.Params.docs_version }}/getting-started/javascript/" class="icon-link icon-link-hover fw-semibold">
-        Learn more about Crow JavaScript
+        Saiba mais sobre o JavaScript do Crow
         <svg class="bi"><use xlink:href="#arrow-right"></use></svg>
       </a>
     </p>
   </div>
   <div class="row gx-md-5">
     <div class="col-lg-6 mb-3">
-      <h3 class="fw-semibold">Data attribute API</h3>
-      <p>Why write more JavaScript when you can write HTML? Nearly all of Crow's JavaScript plugins feature a first-class data API, allowing you to use JavaScript just by adding <code>data</code> attributes.</p>
+      <h3 class="fw-semibold">API de atributo de dados</h3>
+      <p>Por que escrever mais JavaScript quando você pode escrever HTML? Quase todos os plugins JavaScript do Crow possuem uma API de dados de primeira classe, permitindo que você use JavaScript apenas adicionando atributos <code>data</code>.</p>
       <div class="p-4 mb-3 border rounded-3">
         <div class="dropdown">
           <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
             Dropdown
           </button>
           <ul class="dropdown-menu">
-            <li><button class="dropdown-item" type="button">Dropdown item</button></li>
-            <li><button class="dropdown-item" type="button">Dropdown item</button></li>
-            <li><button class="dropdown-item" type="button">Dropdown item</button></li>
+            <li><button class="dropdown-item" type="button">Item de menu suspenso</button></li>
+            <li><button class="dropdown-item" type="button">Item de menu suspenso</button></li>
+            <li><button class="dropdown-item" type="button">Item de menu suspenso</button></li>
           </ul>
         </div>
       </div>
@@ -36,17 +36,17 @@
     Dropdown
   </button>
   <ul class="dropdown-menu">
-    <li><button class="dropdown-item" type="button">Dropdown item</button></li>
-    <li><button class="dropdown-item" type="button">Dropdown item</button></li>
-    <li><button class="dropdown-item" type="button">Dropdown item</button></li>
+    <li><button class="dropdown-item" type="button">Item de menu suspenso</button></li>
+    <li><button class="dropdown-item" type="button">Item de menu suspenso</button></li>
+    <li><button class="dropdown-item" type="button">Item de menu suspenso</button></li>
   </ul>
 </div>
 `) "html" "" }}
-      <p>Learn more about <a href="/docs/{{ .Site.Params.docs_version }}/getting-started/javascript/#using-crow-as-a-module">our JavaScript as modules</a> and <a href="/docs/{{ .Site.Params.docs_version }}/getting-started/javascript/#programmatic-api">using the programmatic API</a>.</p>
+      <p>Saiba mais sobre <a href="/docs/{{ .Site.Params.docs_version }}/getting-started/javascript/#using-crow-as-a-module">nosso JavaScript como módulos</a> e <a href="/docs/{{ .Site.Params.docs_version }}/getting-started/javascript/#programmatic-api">usando a API programática</a>.</p>
     </div>
     <div class="col-lg-6 mb-3">
-      <h3 class="fw-semibold">Comprehensive set of plugins</h3>
-      <p>Crow features a dozen plugins that you can drop into any project. Drop them in all at once, or choose just the ones you need.</p>
+      <h3 class="fw-semibold">Conjunto abrangente de plugins</h3>
+      <p>O Crow possui uma dúzia de plugins que você pode inserir em qualquer projeto. Insira todos de uma vez ou escolha apenas os que você precisa.</p>
       <hr class="my-4">
       <div class="row g-3">
         {{- range $plugin := .Site.Data.plugins -}}

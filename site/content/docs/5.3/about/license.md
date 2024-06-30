@@ -1,34 +1,35 @@
 ---
 layout: docs
-title: License FAQs
-description: Commonly asked questions about Crow's open source license.
+title: License FAQs - Perguntas Frequentes sobre a Licença
+description: Perguntas frequentes sobre a licença de código aberto do Crow.
 group: about
 ---
 
-Crow is released under the MIT license and is copyright {{< year >}}. Boiled down to smaller chunks, it can be described with the following conditions.
+Crow é lançado sob a licença MIT e é copyright {{< year >}}. Resumidamente, pode ser descrito pelas seguintes condições.
 
-## It requires you to:
+## É necessário que você:
 
-- Keep the license and copyright notice included in Crow's CSS and JavaScript files when you use them in your works
+- Mantenha a licença e o aviso de direitos autorais incluídos nos arquivos CSS e JavaScript do Crow quando você os usar em seus trabalhos
 
-## It permits you to:
+## É permitido que você:
 
-- Freely download and use Crow, in whole or in part, for personal, private, company internal, or commercial purposes
-- Use Crow in packages or distributions that you create
-- Modify the source code
-- Grant a sublicense to modify and distribute Crow to third parties not included in the license
+- Baixe e use o Crow gratuitamente, no todo ou em parte, para fins pessoais, privados, internos da empresa ou comerciais
+- Use o Crow em pacotes ou distribuições que você criar
+- Modifique o código-fonte
+- Conceda uma sublicença para modificar e distribuir o Crow a terceiros não incluídos na licença
 
-## It forbids you to:
+## É proibido que você:
 
-- Hold the authors and license owners liable for damages as Crow is provided without warranty
-- Hold the creators or copyright holders of Crow liable
-- Redistribute any piece of Crow without proper attribution
-- Use any marks owned by Crow in any way that might state or imply that Crow endorses your distribution
-- Use any marks owned by Crow in any way that might state or imply that you created the Crow software in question
+- Considere os autores e proprietários da licença responsáveis por danos, pois o Crow é fornecido sem garantia
+- Considere os criadores ou detentores de direitos autorais do Crow responsáveis
+- Redistribua qualquer parte do Crow sem a devida atribuição
+- Use qualquer marca de propriedade do Crow de qualquer forma que possa declarar ou implicar que o Crow endossa sua distribuição
+- Use qualquer marca de propriedade do Crow de qualquer forma que possa declarar ou implicar que você criou o software Crow em questão
 
-## It does not require you to:
+## Não é necessário que você:
 
-- Include the source of Crow itself, or of any modifications you may have made to it, in any redistribution you may assemble that includes it
-- Submit changes that you make to Crow back to the Crow project (though such feedback is encouraged)
+- Inclua a fonte do Crow em si, ou de quaisquer modificações que você possa ter feito nele, em qualquer redistribuição que você possa montar que o inclua
+- Envie as alterações que você fizer no Crow de volta para o projeto Crow (embora esse feedback seja encorajado)
 
-The full Crow license is located [in the project repository]({{< param repo >}}/blob/v{{< param current_version >}}/LICENSE) for more information.
+A licença completa do Crow está localizada [no repositório do projeto]({{< param repo >}}/blob/v{{< param current_version >}}/LICENSE) para mais informações.
+

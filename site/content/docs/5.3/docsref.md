@@ -1,49 +1,36 @@
 ---
 layout: docs
-title: Docs reference
-description: Examples of Crow's documentation-specific components and styles.
+title: Referência de Documentação
+description: Exemplos de componentes e estilos específicos da documentação do Crow.
 aliases: "/docsref/"
 toc: true
 robots: noindex,follow
 sitemap_exclude: true
 ---
 
-## Buttons
+## Botões
 
-<button class="btn btn-bd-primary">Primary button</button>
-<button class="btn btn-bd-accent">Accent button</button>
-<button class="btn btn-bd-light">Light button</button>
+<button class="btn btn-bd-primary">Botão principal</button>
+<button class="btn btn-bd-accent">Botão de destaque</button>
+<button class="btn btn-bd-light">Botão claro</button>
 
 ## Callouts
 
 {{< callout >}}
-  Default callout
+  Callout padrão
 {{< /callout >}}
 
 {{< callout warning >}}
-  Warning callout
+  Callout de aviso
 {{< /callout >}}
 
 {{< callout danger >}}
-  Danger callout
+  Callout de perigo
 {{< /callout >}}
 
-## Code example
+## Exemplo de código
 
 ```scss
 .test {
   --color: blue;
 }
-```
-
-<div class="bd-example">
-  The <abbr title="HyperText Markup Language">HTML</abbr> abbreviation element.
-</div>
-
-{{< example >}}
-<div class="test">This is a test.</div>
-{{< /example >}}
-
-{{< scss-docs name="variable-gradient" file="scss/_variables.scss" >}}
-
-{{< js-docs name="live-toast" file="site/assets/js/snippets.js" >}}

@@ -3,21 +3,21 @@
     <div class="masthead-followup-icon d-inline-block mb-3" style="--bg-rgb: var(--bd-pink-rgb);">
       <svg class="bi fs-1"><use xlink:href="#braces"></use></svg>
     </div>
-    <h2 class="display-5 mb-3 fw-semibold lh-sm">Build and extend in real-time with CSS&nbsp;variables</h2>
+    <h2 class="display-5 mb-3 fw-semibold lh-sm">Construa e estenda em tempo real com variáveis CSS</h2>
     <p class="lead fw-normal">
-      Crow 5 is evolving with each release to better utilize CSS variables for global theme styles, individual components, and even utilities. We provide dozens of variables for colors, font styles, and more at a <code>:root</code> level for use anywhere. On components and utilities, CSS variables are scoped to the relevant class and can easily be modified.
+      O Crow 5 está evoluindo a cada lançamento para melhor utilizar variáveis CSS para estilos globais de tema, componentes individuais e até mesmo utilitários. Fornecemos dezenas de variáveis para cores, estilos de fonte e muito mais em um nível <code>:root</code> para uso em qualquer lugar. Em componentes e utilitários, as variáveis CSS são restritas à classe relevante e podem ser facilmente modificadas.
     </p>
     <p class="d-flex align-items-start flex-column lead fw-normal mb-0">
       <a href="/docs/{{ .Site.Params.docs_version }}/customize/css-variables/" class="icon-link icon-link-hover fw-semibold mb-3">
-        Learn more about CSS variables
+        Saiba mais sobre variáveis CSS
         <svg class="bi"><use xlink:href="#arrow-right"></use></svg>
       </a>
     </p>
   </div>
   <div class="row gx-md-5">
     <div class="col-lg-6 mb-3">
-      <h3 class="fw-semibold">Using CSS variables</h3>
-      <p>Use any of our <a href="/docs/{{ .Site.Params.docs_version }}/customize/css-variables/#root-variables">global <code>:root</code> variables</a> to write new styles. CSS variables use the <code>var(--bs-variableName)</code> syntax and can be inherited by children elements.</p>
+      <h3 class="fw-semibold">Usando variáveis CSS</h3>
+      <p>Use qualquer uma de nossas <a href="/docs/{{ .Site.Params.docs_version }}/customize/css-variables/#root-variables">variáveis globais <code>:root</code></a> para escrever novos estilos. As variáveis CSS usam a sintaxe <code>var(--bs-variableName)</code> e podem ser herdadas por elementos filhos.</p>
       {{ highlight (printf `.component {
   color: var(--bs-gray-800);
   background-color: var(--bs-gray-100);
@@ -30,8 +30,8 @@
 }`) "scss" "" }}
     </div>
     <div class="col-lg-6 mb-3">
-      <h3 class="fw-semibold">Customizing via CSS variables</h3>
-      <p>Override global, component, or utility class variables to customize Crow just how you like. No need to redeclare each rule, just a new variable value.</p>
+      <h3 class="fw-semibold">Personalizando via variáveis CSS</h3>
+      <p>Substitua variáveis globais, de componente ou de classe de utilitário para personalizar o Crow do jeito que você gosta. Não há necessidade de redeclarar cada regra, apenas um novo valor de variável.</p>
       {{ highlight (printf `body {
   --bs-body-font-family: var(--bs-font-monospace);
   --bs-body-line-height: 1.4;

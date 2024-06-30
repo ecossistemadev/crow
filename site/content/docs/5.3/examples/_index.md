@@ -1,7 +1,7 @@
 ---
 layout: single
-title: Examples
-description: Quickly get a project started with any of our examples ranging from using parts of the framework to custom components and layouts.
+title: Exemplos
+description: Comece um projeto rapidamente com qualquer um dos nossos exemplos, que vão desde o uso de partes do framework até componentes e layouts personalizados.
 aliases: "/examples/"
 ---
 
@@ -13,9 +13,9 @@ aliases: "/examples/"
   {{ if eq $entry.category "RTL" -}}
     <div class="bd-callout bd-callout-warning small">
       <p>
-        <strong>RTL is still experimental</strong> and will evolve with feedback. Spotted something or have an improvement to suggest?
+        <strong>RTL ainda está em fase experimental</strong> e evoluirá com base no feedback. Encontrou algo ou tem uma melhoria para sugerir?
       </p>
-      <p><a href="{{ $.Site.Params.repo }}/issues/new/choose">Please open an issue.</a></p>
+      <p><a href="{{ $.Site.Params.repo }}/issues/new/choose">Por favor, abra um problema.</a></p>
     </div>
   {{ end -}}
   {{ range $i, $example := $entry.examples -}}
@@ -38,7 +38,7 @@ aliases: "/examples/"
               {{- end }}
               <a class="icon-link small link-secondary link-offset-1" href="https://stackblitz.com/github/ecossistemadev{{ $example.url }}?file={{ $indexPath | urlquery }}" target="_blank" rel="noopener">
                 <svg class="bi flex-shrink-0"><use xlink:href="#lightning-charge-fill"></use></svg>
-                Edit in StackBlitz
+                Editar no StackBlitz
               </a>
             </p>
           </div>

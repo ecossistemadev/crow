@@ -58,12 +58,11 @@ params:
   current_ruby_version: "5.3.3"
   docs_version:         "5.3"
   rfs_version:          "v10.0.0"
-  github_org:           "https://github.com/ecossistemadev"
+  github_org:           "https://github.com/ecossistemadev/crow"
   repo:                 "https://github.com/ecossistemadev/crow"
   twitter:              "crow"
   opencollective:       "https://opencollective.com/crow"
   blog:                 "https://blog.crow.ecossistema.dev/"
-  themes:               "https://themes.crow.ecossistema.dev/"
   icons:                "https://icons.crow.ecossistema.dev/"
   swag:                 "https://cottonbureau.com/people/crow"
 

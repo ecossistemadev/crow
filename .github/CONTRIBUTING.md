@@ -27,10 +27,6 @@ restrictions:
   Use [GitHub's "reactions" feature](https://blog.github.com/2016-03-10-add-reactions-to-pull-requests-issues-and-comments/)
   instead. We reserve the right to delete comments which violate this rule.
 
-- Please **do not** open issues regarding the official themes offered on <https://themes.crow.ecossistema.dev/>.
-  Instead, please email any questions or feedback regarding those themes to `themes AT crow DOT com`.
-
-
 ## Issues assignment
 
 The core team will be looking at the open issues, analyze them, and provide guidance on how to proceed. **Issues won't be assigned to anyone outside the core team.** However, contributors are welcome to participate in the discussion and provide their input on how to best solve the issue, and even submit a PR if they want to. Please wait that the issue is ready to be worked on before submitting a PR, we don't want to waste your time.

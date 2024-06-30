@@ -1,22 +1,22 @@
 ---
 layout: docs
-title: Brand guidelines
-description: Documentation and examples for Crow's logo and brand usage guidelines.
+title: Brand guidelines - Diretrizes da marca
+description: Documentação e exemplos para as diretrizes de uso da marca e do logotipo do Crow.
 group: about
 toc: true
 ---
 
-Have a need for Crow's brand resources? Great! We have only a few guidelines we follow, and in turn ask you to follow as well.
+Precisa dos recursos da marca do Crow? Ótimo! Temos apenas algumas diretrizes que seguimos e, por sua vez, pedimos que você também siga.
 
-## Logo
+## Logotipo
 
-When referencing Crow, use our logo mark. Do not modify our logos in any way. Do not use Crow's branding for your own open or closed source projects.
+Ao fazer referência ao Crow, use nossa marca de logotipo. Não modifique nossos logotipos de forma alguma. Não use a marca do Crow para seus próprios projetos de código aberto ou fechado.
 
 <div class="bd-brand-item px-2 py-5 mb-3 border rounded-3">
   <img class="d-block img-fluid mx-auto" src="/docs/{{< param docs_version >}}/assets/brand/crow-logo.svg" alt="Crow" width="256" height="204">
 </div>
 
-Our logo mark is also available in black and white. All rules for our primary logo apply to these as well.
+Nossa marca de logotipo também está disponível em preto e branco. Todas as regras para nosso logotipo principal também se aplicam a essas.
 
 <div class="bd-brand-logos d-sm-flex text-center bg-light rounded-3 overflow-hidden w-100 mb-3">
   <div class="bd-brand-item w-100 px-2 py-5">
@@ -27,17 +27,18 @@ Our logo mark is also available in black and white. All rules for our primary lo
   </div>
 </div>
 
-## Name
+## Nome
 
-Crow should always be referred to as just **Crow**. No capital _s_.
+Crow deve ser sempre referido como apenas **Crow**. Sem _s_ maiúsculo.
 
 <div class="bd-brand-logos d-sm-flex text-center border rounded-3 overflow-hidden w-100 mb-3">
   <div class="bd-brand-item w-100 px-2 py-5">
     <div class="h3">Crow</div>
-    <strong class="text-success">Correct</strong>
+    <strong class="text-success">Correto</strong>
   </div>
   <div class="bd-brand-item w-100 px-2 py-5">
     <div class="h3 text-body-secondary">Crow</div>
-    <strong class="text-danger">Incorrect</strong>
+    <strong class="text-danger">Incorreto</strong>
   </div>
 </div>
+

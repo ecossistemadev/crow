@@ -1,11 +1,11 @@
 ---
 layout: docs
-title: Team
-description: An overview of the founding team and core contributors to Crow.
+title: Team - Equipe
+description: Uma visão geral da equipe fundadora e dos principais colaboradores do Crow.
 group: about
 ---
 
-Crow is maintained by the founding team and a small group of invaluable core contributors, with the massive support and involvement of our community.
+Crow é mantido pela equipe fundadora e um pequeno grupo de valiosos colaboradores principais, com o apoio e envolvimento massivos de nossa comunidade.
 
 {{< team.inline >}}
 <div class="list-group mb-3">
@@ -20,4 +20,5 @@ Crow is maintained by the founding team and a small group of invaluable core con
 </div>
 {{< /team.inline >}}
 
-Get involved with Crow development by [opening an issue]({{< param repo >}}/issues/new/choose) or submitting a pull request. Read our [contributing guidelines]({{< param repo >}}/blob/v{{< param current_version >}}/.github/CONTRIBUTING.md) for information on how we develop.
+Envolva-se com o desenvolvimento do Crow abrindo uma [issue]({{< param repo >}}/issues/new/choose) ou enviando um pull request. Leia nossas [regras de contribuição]({{< param repo >}}/blob/v{{< param current_version >}}/.github/CONTRIBUTING.md) para obter informações sobre como desenvolvemos.
+

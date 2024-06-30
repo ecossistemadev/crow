@@ -1,7 +1,7 @@
 ---
 layout: docs
-title: Accordion
-description: Build vertically collapsing accordions in combination with our Collapse JavaScript plugin.
+title: Accordion - Acordeão
+description: Crie acordeões que se expandem verticalmente em combinação com nosso plugin Collapse JavaScript.
 group: components
 aliases:
   - "/components/"
@@ -9,57 +9,57 @@ aliases:
 toc: true
 ---
 
-## How it works
+## Como funciona
 
-The accordion uses [collapse]({{< docsref "/components/collapse" >}}) internally to make it collapsible.
+O acordeão usa [collapse]({{< docsref "/components/collapse" >}}) internamente para torná-lo colapsável.
 
 {{< callout info >}}
 {{< partial "callouts/info-prefersreducedmotion.md" >}}
 {{< /callout >}}
 
-## Example
+## Exemplo
 
-Click the accordions below to expand/collapse the accordion content.
+Clique nos acordeões abaixo para expandir/recolher o conteúdo do acordeão.
 
-To render an accordion that's expanded by default:
-- add the `.show` class on the `.accordion-collapse` element.
-- drop the `.collapsed` class from the `.accordion-button` element and set its `aria-expanded` attribute to `true`.
+Para renderizar um acordeão que é expandido por padrão:
+- adicione a classe `.show` no elemento `.accordion-collapse`.
+- remova a classe `.collapsed` do elemento `.accordion-button` e defina seu atributo `aria-expanded` como `true`.
 
 {{< example >}}
 <div class="accordion" id="accordionExample">
   <div class="accordion-item">
     <h2 class="accordion-header">
       <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-        Accordion Item #1
+        Item do Acordeão #1
       </button>
     </h2>
     <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        <strong>Este é o corpo do primeiro item do acordeão.</strong> Ele é mostrado por padrão, até que o plugin de colapso adicione as classes apropriadas que usamos para estilizar cada elemento. Essas classes controlam a aparência geral, bem como a exibição e ocultação por meio de transições CSS. Você pode modificar qualquer um desses elementos com CSS personalizado ou substituindo nossas variáveis padrão. Também vale a pena notar que quase qualquer HTML pode ir dentro do <code>.accordion-body</code>, embora a transição limite o overflow.
       </div>
     </div>
   </div>
   <div class="accordion-item">
     <h2 class="accordion-header">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-        Accordion Item #2
+        Item do Acordeão #2
       </button>
     </h2>
     <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        <strong>Este é o corpo do segundo item do acordeão.</strong> Ele é ocultado por padrão, até que o plugin de colapso adicione as classes apropriadas que usamos para estilizar cada elemento. Essas classes controlam a aparência geral, bem como a exibição e ocultação por meio de transições CSS. Você pode modificar qualquer um desses elementos com CSS personalizado ou substituindo nossas variáveis padrão. Também vale a pena notar que quase qualquer HTML pode ir dentro do <code>.accordion-body</code>, embora a transição limite o overflow.
       </div>
     </div>
   </div>
   <div class="accordion-item">
     <h2 class="accordion-header">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-        Accordion Item #3
+        Item do Acordeão #3
       </button>
     </h2>
     <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        <strong>Este é o corpo do terceiro item do acordeão.</strong> Ele é ocultado por padrão, até que o plugin de colapso adicione as classes apropriadas que usamos para estilizar cada elemento. Essas classes controlam a aparência geral, bem como a exibição e ocultação por meio de transições CSS. Você pode modificar qualquer um desses elementos com CSS personalizado ou substituindo nossas variáveis padrão. Também vale a pena notar que quase qualquer HTML pode ir dentro do <code>.accordion-body</code>, embora a transição limite o overflow.
       </div>
     </div>
   </div>
@@ -68,102 +68,103 @@ To render an accordion that's expanded by default:
 
 ### Flush
 
-Add `.accordion-flush` to remove some borders and rounded corners to render accordions edge-to-edge with their parent container.
+Adicione `.accordion-flush` para remover algumas bordas e cantos arredondados para renderizar acordeões de ponta a ponta com seu contêiner pai.
 
 {{< example class="bg-body-secondary" >}}
 <div class="accordion accordion-flush" id="accordionFlushExample">
   <div class="accordion-item">
     <h2 class="accordion-header">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-        Accordion Item #1
+        Item do Acordeão #1
       </button>
     </h2>
     <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+      <div class="accordion-body">Conteúdo de espaço reservado para este acordeão, que visa demonstrar a classe <code>.accordion-flush</code>. Este é o corpo do primeiro item do acordeão.</div>
     </div>
   </div>
   <div class="accordion-item">
     <h2 class="accordion-header">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-        Accordion Item #2
+        Item do Acordeão #2
       </button>
     </h2>
     <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+      <div class="accordion-body">Conteúdo de espaço reservado para este acordeão, que visa demonstrar a classe <code>.accordion-flush</code>. Este é o corpo do segundo item do acordeão. Imagine que isso seja preenchido com algum conteúdo real.</div>
     </div>
   </div>
   <div class="accordion-item">
     <h2 class="accordion-header">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-        Accordion Item #3
+        Item do Acordeão #3
       </button>
     </h2>
     <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+      <div class="accordion-body">Conteúdo de espaço reservado para este acordeão, que visa demonstrar a classe <code>.accordion-flush</code>. Este é o corpo do terceiro item do acordeão. Nada mais emocionante acontecendo aqui em termos de conteúdo, mas apenas preenchendo o espaço para fazer com que pareça, pelo menos à primeira vista, um pouco mais representativo de como isso ficaria em um aplicativo do mundo real.</div>
     </div>
   </div>
 </div>
 {{< /example >}}
 
-### Always open
+### Sempre aberto
 
-Omit the `data-bs-parent` attribute on each `.accordion-collapse` to make accordion items stay open when another item is opened.
+Omita o atributo `data-bs-parent` em cada `.accordion-collapse` para fazer com que os itens do acordeão permaneçam abertos quando outro item for aberto.
 
 {{< example >}}
 <div class="accordion" id="accordionPanelsStayOpenExample">
   <div class="accordion-item">
     <h2 class="accordion-header">
       <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-        Accordion Item #1
+        Item do Acordeão #1
       </button>
     </h2>
     <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
       <div class="accordion-body">
-        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        <strong>Este é o corpo do primeiro item do acordeão.</strong> Ele é mostrado por padrão, até que o plugin de colapso adicione as classes apropriadas que usamos para estilizar cada elemento. Essas classes controlam a aparência geral, bem como a exibição e ocultação por meio de transições CSS. Você pode modificar qualquer um desses elementos com CSS personalizado ou substituindo nossas variáveis padrão. Também vale a pena notar que quase qualquer HTML pode ir dentro do <code>.accordion-body</code>, embora a transição limite o overflow.
       </div>
     </div>
   </div>
   <div class="accordion-item">
     <h2 class="accordion-header">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-        Accordion Item #2
+        Item do Acordeão #2
       </button>
     </h2>
     <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
       <div class="accordion-body">
-        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        <strong>Este é o corpo do segundo item do acordeão.</strong> Ele é ocultado por padrão, até que o plugin de colapso adicione as classes apropriadas que usamos para estilizar cada elemento. Essas classes controlam a aparência geral, bem como a exibição e ocultação por meio de transições CSS. Você pode modificar qualquer um desses elementos com CSS personalizado ou substituindo nossas variáveis padrão. Também vale a pena notar que quase qualquer HTML pode ir dentro do <code>.accordion-body</code>, embora a transição limite o overflow.
       </div>
     </div>
   </div>
   <div class="accordion-item">
     <h2 class="accordion-header">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-        Accordion Item #3
+        Item do Acordeão #3
       </button>
     </h2>
     <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
       <div class="accordion-body">
-        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        <strong>Este é o corpo do terceiro item do acordeão.</strong> Ele é ocultado por padrão, até que o plugin de colapso adicione as classes apropriadas que usamos para estilizar cada elemento. Essas classes controlam a aparência geral, bem como a exibição e ocultação por meio de transições CSS. Você pode modificar qualquer um desses elementos com CSS personalizado ou substituindo nossas variáveis padrão. Também vale a pena notar que quase qualquer HTML pode ir dentro do <code>.accordion-body</code>, embora a transição limite o overflow.
       </div>
     </div>
   </div>
 </div>
 {{< /example >}}
 
-## Accessibility
+## Acessibilidade
 
-Please read the [collapse accessibility section]({{< docsref "/components/collapse#accessibility" >}}) for more information.
+Por favor, leia a [seção de acessibilidade do colapso]({{< docsref "/components/collapse#accessibility" >}}) para mais informações.
 
 ## CSS
 
-### Variables
+### Variáveis
 
 {{< added-in "5.2.0" >}}
 
-As part of Crow's evolving CSS variables approach, accordions now use local CSS variables on `.accordion` for enhanced real-time customization. Values for the CSS variables are set via Sass, so Sass customization is still supported, too.
+Como parte da abordagem evolutiva de variáveis CSS do Crow, os acordeões agora usam variáveis CSS locais em `.accordion` para personalização aprimorada em tempo real. Os valores para as variáveis CSS são definidos por meio do Sass, portanto, a personalização do Sass ainda é suportada também.
 
 {{< scss-docs name="accordion-css-vars" file="scss/_accordion.scss" >}}
 
-### Sass variables
+### Variáveis Sass
 
 {{< scss-docs name="accordion-variables" file="scss/_variables.scss" >}}
+
