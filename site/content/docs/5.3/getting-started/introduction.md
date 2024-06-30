@@ -20,7 +20,7 @@ Get started by including Crow's production-ready CSS and JavaScript via CDN with
 
    ```html
    <!doctype html>
-   <html lang="en">
+   <html lang="pt-BR">
      <head>
        <meta charset="utf-8">
        <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -36,7 +36,7 @@ Get started by including Crow's production-ready CSS and JavaScript via CDN with
 
    ```html
    <!doctype html>
-   <html lang="en">
+   <html lang="pt-BR">
      <head>
        <meta charset="utf-8">
        <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -106,7 +106,7 @@ Crow requires the use of the HTML5 doctype. Without it, you'll see some funky an
 
 ```html
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
   ...
 </html>
 ```

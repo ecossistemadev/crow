@@ -62,7 +62,7 @@ To fix this, you can use an `importmap` to resolve the arbitrary module names to
 <!-- eslint-skip -->
 ```html
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">

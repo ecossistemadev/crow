@@ -113,7 +113,7 @@ Once your CSS is compiled, you can include it in your HTML files. Inside your `i
 
 ```html
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">

@@ -74,7 +74,7 @@ Enable the built in dark color mode across your entire project by adding the `da
 
 ```html
 <!doctype html>
-<html lang="en" data-bs-theme="dark">
+<html lang="pt-BR" data-bs-theme="dark">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
