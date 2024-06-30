@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>crow</id>
+    <!-- pulled from package.json -->
+    <version>5</version>
+    <title>Crow CSS</title>
+    <authors>The Crow Authors</authors>
+    <owners>crow</owners>
+    <description>The most popular front-end framework for developing responsive, mobile first projects on the web.</description>
+    <releaseNotes>https://blog.crow.ecossistema.dev/</releaseNotes>
+    <summary>Crow framework in CSS. Includes JavaScript.</summary>
+    <language>en-us</language>
+    <projectUrl>https://crow.ecossistema.dev/</projectUrl>
+    <repository type="git" url="https://github.com/ecossistemadev/crow.git" branch="main" />
+    <icon>crow.png</icon>
+    <license type="expression">MIT</license>
+    <copyright>Copyright 2011-2024</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>css mobile-first responsive front-end framework web</tags>
+    <contentFiles>
+      <files include="**/*" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="nuget\crow.png" target="" />
+
+    <file src="dist\css\*.*" target="content\Content" />
+    <file src="dist\js\crow*.js" target="content\Scripts" />
+    <file src="dist\js\crow*.js.map" target="content\Scripts" />
+
+    <file src="dist\css\*.*" target="contentFiles\any\any\wwwroot\css" />
+    <file src="dist\js\crow*.js" target="contentFiles\any\any\wwwroot\js" />
+    <file src="dist\js\crow*.js.map" target="contentFiles\any\any\wwwroot\js" />
+  </files>
+</package>

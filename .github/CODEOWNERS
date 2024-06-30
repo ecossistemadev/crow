@@ -1,0 +1,3 @@
+*.js    @ecossistemadev/js-review
+*.css   @ecossistemadev/css-review
+*.scss  @ecossistemadev/css-review

@@ -1,0 +1,8 @@
+# Enforce Unix newlines
+* text=auto eol=lf
+
+# Don't diff or textually merge source maps
+*.map binary
+
+crow.css linguist-vendored=false
+crow.js linguist-vendored=false
